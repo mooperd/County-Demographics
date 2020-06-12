@@ -11,7 +11,7 @@ def import_data(filename):
             return_list.append(dict(row))
     return return_list
 
-@app.route('/cheese/<search_term>')
+@app.route('/state/<search_term >')
 def state(search_term):
     return_list = []
     for row in data:
